@@ -1,0 +1,13 @@
+<ruleset name="London Hackspace">
+    <target host="london.hackspace.org.uk" />
+    <target host="www.london.hackspace.org.uk" />
+    
+    <target host="wiki.london.hackspace.org.uk" />
+    <target host="www.wiki.london.hackspace.org.uk" />
+
+
+    <rule from="^http://london.hackspace\.org\.uk/" to="https://london.hackspace.org.uk/"/>
+    <rule from="^http://(www\.)?(wiki)?\.london\.hackspace\.org\.uk/" to="https://$2.london.hackspace.org.uk/"/>
+    
+    <securecookie host="^(www\.)?(wiki\.)?london\.hackspace\.org\.uk$" name=".*" />
+</ruleset>
