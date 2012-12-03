@@ -6,4 +6,6 @@
 
     <rule from="^http://london.hackspace\.org\.uk/" to="https://london.hackspace.org.uk/"/>
     <rule from="^http://(www\.)?([@]*)\.london\.hackspace\.org\.uk/" to="https://$1.london.hackspace.org.uk/"/>
+    
+    <securecookie host="^(wiki.)?london\.hackspace\.org\.uk$" name=".*" />
 </ruleset>
