@@ -6,8 +6,8 @@
     <target host="www.wiki.london.hackspace.org.uk" />
 
 
-    <rule from="^https?://(www\.)?london.hackspace\.org\.uk/" to="https://london.hackspace.org.uk/"/>
-    <rule from="^https?://(www\.)?(wiki)?\.london\.hackspace\.org\.uk/" to="https://$2.london.hackspace.org.uk/"/>
+    <rule from="^https?://(www\.)?london\.hackspace\.org\.uk/" to="https://london.hackspace.org.uk/"/>
+    <rule from="^https?://(www\.)?wiki\.london\.hackspace\.org\.uk/" to="https://wiki.london.hackspace.org.uk/"/>
     
     <securecookie host="^(www\.)?(wiki\.)?london\.hackspace\.org\.uk$" name=".*" />
 </ruleset>
